@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto_Cafeteria_Geek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <h1>Dev & Coffee</h1>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#preco">Preço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <h2>O refúgio perfeito para o seu código</h2>
+            <p>Cansado de codar isolado ou em cafés barulhentos? No Dev & Coffee, criamos o ecossistema ideal para
+                desenvolvedores. Internet de fibra de ultra velocidade, café artesanal ilimitado e uma comunidade que
+                entende de syntax error tanto quanto você. O seu lugar para buildar projetos e conexões.
+            </p>
+            <img src="img/imagem-principal.png" alt="Imagem ilustrativa da cafeteria.">
+        </section>
+
+        <section id="diferenciais">
+            <h2>Por que escolher o Dev & Coffee?</h2>
+            <ul>
+                <li>Internet de Fibra Óptica (1Gbps)</li>
+                <li>Cadeiras Ergonômicas de Alta Performance</li>
+                <li>Café Especial Ilimitado</li>
+                <li>Ambiente com Isolamento Acústico</li>
+                <li>Comunidade Ativa de Desenvolvedores</li>
+            </ul>
+        </section>
+        <section id="galeria">
+            <h2>Nosso Espaço</h2>
+            <div class="fotos">
+                <img src="img/foto-1.jpg" alt="Pessoa sentada mexendo no computador enquanto toma cafe.">
+                <img src="img/foto-2.jpg" alt="mao segurando uma chaleira e coando cafe.">
+                <img src="img/foto-3.jpg!d"
+                    alt="pessoa anotando coisas no caderno na frente do computador enquanto toma cafe.">
+            </div>
+        </section>
+        <section id="video-lofi">
+            <h2>Nosso Ambiente</h2>
+            <div class="video-container">
+                <video controls controlsList="nodownload">
+                    <source src="Videos/Cafeteria Geek_ Trabalhe do Seu Jeito (PT-BR)_720p.mp4" type="video/mp4">
+                    <track src="Videos/legenda-video.vtt" kind="subtitles" srclang="pt" label="Português">
+                    </track>
+                </video>
+            </div>
+            <p>Relaxe com nossa playlist lo-fi enquanto trabalha.</p>
+        </section>
+
+        <section id="preco">
+            <h2>Planos de Reserva</h2>
+            <table border="1">
+                <tr>
+                    <th>Espaço</th>
+                    <th>Benefícios</th>
+                    <th>Valor/Hora</th>
+                </tr>
+                <tr>
+                    <td>Estação Individual</td>
+                    <td>Cadeira Ergonômica</td>
+                    <td>R$ 15,00</td>
+                </tr>
+                <tr>
+                    <td>Cabine de Foco (Deep Work)</td>
+                    <td>Isolamento acústico total + Café Double Shot</td>
+                    <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>Sala de Reunião</td>
+                    <td>Monitor 4K + Café</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>Day Pass (Geral)</td>
+                    <td>Acesso livre 8h + 1 lanche incluso</td>
+                    <td>R$ 160,00</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contato">
+            <h2>Reserve sua Cadeira</h2>
+            <form>
+                <label>Nome:</label>
+                <input type="text" required name="nome" pattern="[A-Za-zÀ-ÿ\s]+"
+                    title="O Nome deve conter Apenas Letras.">
+                <label>E-mail:</label>
+                <input type="email" required>
+                <label>Mensagem:</label>
+                <textarea required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="redes-sociais">
+            <h2>Conecte-se Conosco</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/marcelo.raasch?igsh=cDlpd3I3ajQyOWRv">Instagram</a>
+                <a href="https://github.com/marceloraasch">GitHub</a>
+            </div>
+
+        </section>
+    </main>
+    <footer>&copy; 2026 Dev & Coffee - Vila Velha/ES</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#preco">Preço</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        -->
